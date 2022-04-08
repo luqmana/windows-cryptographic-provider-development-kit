@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>windows-cryptographic-provider-development-kit</id>
+    <version>10.1.19041.953</version>
+    <packageSourceUrl>https://github.com/luqmana/windows-cryptographic-provider-development-kit</packageSourceUrl>
+    <owners>Luqman Aden</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Windows Cryptographic Provider Development Kit - Windows 10</title>
+    <authors>Microsoft Corporation</authors>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=30688</projectUrl>
+    <tags>microsoft windows windows-cryptographic-provider-development-kit cpdk cryptography</tags>
+    <summary>The CPDK contains documentation and code to help you develop cryptographic providers.</summary>
+    <description>The CPDK contains documentation and code to help you develop cryptographic providers.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
